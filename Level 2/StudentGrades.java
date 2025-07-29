@@ -7,12 +7,12 @@ public class StudentGrades {
         System.out.print("Enter number of students: ");
         int n = sc.nextInt();
 
-        // Arrays to store marks, percentages, and grades
+       
         int[][] marks = new int[n][3];
         double[] percentages = new double[n];
         char[] grades = new char[n];
 
-       //input marks
+    
         for (int i = 0; i < n; i++) {
             System.out.println("\n--- Student " + (i + 1) + " ---");
             for (int j = 0; j < 3; j++) {
