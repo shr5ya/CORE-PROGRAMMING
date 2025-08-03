@@ -1,3 +1,5 @@
+package Java_strings;
+
 import java.util.Scanner;
 
 class ReplaceWord {
